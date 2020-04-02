@@ -369,7 +369,7 @@ ENDCLASS.
 
     ```
 
-2. Now evaluate `sy-subrc` by adding the following CASE...ENDCASE statement:
+2. Now evaluate `sy-subrc` by adding the following CASE...ENDCASE statement::
 
     ```ABAP
 
