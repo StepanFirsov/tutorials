@@ -12,6 +12,7 @@ time: 10
 ## Details
 ### You will learn  
   - How to expose a Web Dynpro ABAP backend application to your SAP Cloud Platform Portal site
+  - How to test
 
 
 SAP customers who run classic SAP UI applications on their data center backend can transition to the SAP Cloud Platform and continue using these applications.
