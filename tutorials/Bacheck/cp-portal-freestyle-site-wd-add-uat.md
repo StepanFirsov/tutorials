@@ -164,45 +164,24 @@ SAP customers who run classic SAP UI applications on their data center backend c
 
 3. Click the apps to open them.
 
-Code snippets in a numbered list
-
-1. ```shell
-	saved_model_cli show \
-	--dir ~/export/iris/* \
-	--tag_set serve \
-	--signature_def serving_default
-	```
-
-2. ```shell
-	saved_model_cli show \
-	--dir ~/export/iris/* \
-	--tag_set serve \
-	--signature_def serving_default
-	```
-
-3. ```shell
-	saved_model_cli show \
-	--dir ~/export/iris/* \
-	--tag_set serve \
-	--signature_def serving_default
-	```
 
 Images in a numbered list
 
 1. Image
 
 	![Content management](1-content-management.png)
-	
+
 	![Click preview icon](13-click-preview.png)
 
-2. ![Content management](1-content-management.png)
+2. Lorem ipsum
 
-3. ![Content management](1-content-management.png)
+3. Lorem ipsum dolor
+
 
 New staff
 
 ![Content management](1-content-management.png)
-	
+
 ![Click preview icon](13-click-preview.png)
 
 [VALIDATE_1]
