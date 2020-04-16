@@ -189,11 +189,21 @@ Code snippets in a numbered list
 
 Images in a numbered list
 
-1. ![Content management](1-content-management.png)
+1. Image
+
+	![Content management](1-content-management.png)
+	
+	![Click preview icon](13-click-preview.png)
 
 2. ![Content management](1-content-management.png)
 
 3. ![Content management](1-content-management.png)
+
+New staff
+
+![Content management](1-content-management.png)
+	
+![Click preview icon](13-click-preview.png)
 
 [VALIDATE_1]
 [ACCORDION-END]
