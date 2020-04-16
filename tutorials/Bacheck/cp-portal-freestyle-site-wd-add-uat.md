@@ -124,6 +124,17 @@ SAP customers who run classic SAP UI applications on their data center backend c
 
 [ACCORDION-BEGIN [Step 2: ](Set up an external access portal landscape)]
 
+1. Re-launch the app on your device, you may asked to authenticate with passcode or Touch ID. You will see a _Confirmation_ pop-up, tap **OK**.
+
+    At `OnLaunch` event, app starts gathering logs.
+
+2. Tap **Upload Logs** to upload client logs from app to SAP Cloud Platform Mobile Services.
+
+    ![MDK](img_017.png)
+
+    ![MDK](img_018.png)
+
+
 Code highlighting example:
 
 ```JavaScript [1-3,6,8]
