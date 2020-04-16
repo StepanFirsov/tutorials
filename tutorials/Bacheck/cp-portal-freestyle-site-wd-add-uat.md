@@ -45,6 +45,10 @@ SAP customers who run classic SAP UI applications on their data center backend c
 
 1. Open the `Supplier Portal` freestyle site for editing in the Site Designer
 
+    ![MDK](img_017.png)
+    
+    ![MDK](img_018.png)
+
 2. Click the **Content Management** icon from the left panel and select **Apps**.
 
     ![Content management](1-content-management.png)
