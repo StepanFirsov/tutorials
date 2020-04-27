@@ -139,9 +139,73 @@ SAP customers who run classic SAP UI applications on their data center backend c
     ![MDK](img_018.png)
 
 
-Code highlighting example:
+Code highlighting example #1:
 
 ```JavaScript [1-3,6,8]
+trimSuperfluousBytes: function (sVal) { // background info https://blogs.sap.com/
+    if (typeof sVal === "string") {
+      const sTrimmed = sVal.substr(104);
+      const sTri = sVal.substr(104);
+      const sTrimm = sVal.substr(104);
+      const s = sVal.substr(104);
+      const sd = sVal.substr(104);
+      return "data:image/bmp;base64," + sTrimmed;
+    }
+    return sVal;
+},
+```
+
+Code highlighting example #2:
+
+```[1-3]
+trimSuperfluousBytes: function (sVal) { // background info https://blogs.sap.com/
+    if (typeof sVal === "string") {
+      const sTrimmed = sVal.substr(104);
+      const sTri = sVal.substr(104);
+      const sTrimm = sVal.substr(104);
+      const s = sVal.substr(104);
+      const sd = sVal.substr(104);
+      return "data:image/bmp;base64," + sTrimmed;
+    }
+    return sVal;
+},
+```
+
+Code highlighting example #3:
+
+```JavaScript[1-3]
+trimSuperfluousBytes: function (sVal) { // background info https://blogs.sap.com/
+    if (typeof sVal === "string") {
+      const sTrimmed = sVal.substr(104);
+      const sTri = sVal.substr(104);
+      const sTrimm = sVal.substr(104);
+      const s = sVal.substr(104);
+      const sd = sVal.substr(104);
+      return "data:image/bmp;base64," + sTrimmed;
+    }
+    return sVal;
+},
+```
+
+Code highlighting example #4:
+
+```JavaScript [6,4,5] 
+trimSuperfluousBytes: function (sVal) { // background info https://blogs.sap.com/
+    if (typeof sVal === "string") {
+      const sTrimmed = sVal.substr(104);
+      const sTri = sVal.substr(104);
+      const sTrimm = sVal.substr(104);
+      const s = sVal.substr(104);
+      const sd = sVal.substr(104);
+      return "data:image/bmp;base64," + sTrimmed;
+    }
+    return sVal;
+},
+```
+
+Code highlighting example #5:
+
+```JavaScript [1-6,4,5-7] 
 trimSuperfluousBytes: function (sVal) { // background info https://blogs.sap.com/
     if (typeof sVal === "string") {
       const sTrimmed = sVal.substr(104);
